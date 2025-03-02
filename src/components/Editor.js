@@ -1,4 +1,4 @@
-
+// Editor page code with debug of console log
 
 import React, { useRef, useEffect, useState } from 'react';
 import { Editor } from "@monaco-editor/react";
