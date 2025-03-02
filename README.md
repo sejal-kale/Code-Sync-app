@@ -75,3 +75,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 init the socket in editor page 
  |
 now send the join event to server
+
+
+
+ Reload the page and check the console logs (F12 → Console).
+2️⃣ Find the logs and check if updates are happening.
+
+Look for 📩 Received CODE_CHANGE from server
+Then look for ✏️ Updating editor content from socket
+If you still see ⚠️ Editor ref is NULL, tell me what the logs show!
+3️⃣ If it's still not working, check your EditorPage.js
+
+Make sure socketRef is correctly passed as a prop.
+
+pen Developer Console (F12 → Console)
+2️⃣ Look for these logs and find where it stops:
+
+✅ Setting up socket event listener for CODE_CHANGE
+📝 Editor content changed: "new code"
+📤 Sending CODE_CHANGE to server: "new code"
+📩 Received CODE_CHANGE from server: "new code"
+✏️ Updating editor content from socket: "new code"
