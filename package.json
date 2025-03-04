@@ -23,16 +23,16 @@
     "socket.io": "^4.8.1",
     "socket.io-client": "^4.8.1",
     "uuid": "^11.1.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.22"
   },
   "scripts": {
     "server:dev": "nodemon server.js",
     "server:prod": "node server.js",
-    "start": "react-scripts start",
-"build": "npm install && npm install --prefix Frontend && npm run build --prefix Frontend"  ,
-  "test": "react-scripts test",
+    "start": "yarn build && yarn server:prod",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
-    
   },
   "eslintConfig": {
     "extends": [
