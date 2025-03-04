@@ -4,6 +4,7 @@ import toast from 'react-hot-toast'
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+    // navigating to the page
     const navigate = useNavigate();
     const [roomId, setRoomId] = useState('');
     const [username, setUsername] = useState('');
