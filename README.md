@@ -79,7 +79,6 @@ now send the join event to server
 
 
  Reload the page and check the console logs (F12 → Console).
-2️⃣ Find the logs and check if updates are happening.
 
 Look for 📩 Received CODE_CHANGE from server
 Then look for ✏️ Updating editor content from socket
