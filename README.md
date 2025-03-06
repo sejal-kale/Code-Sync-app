@@ -79,7 +79,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 Look for 📩 Received CODE_CHANGE from server
 Then look for ✏️ Updating editor content from socket
-If you still see ⚠️ Editor ref is NULL, tell me what the logs show!
+If you still see ⚠️ Editor ref is NULL, tell me what the logs show
 
 
 
