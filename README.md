@@ -87,7 +87,6 @@ If you still see ⚠️ Editor ref is NULL, tell me what the logs show!
 3️⃣ If it's still not working, check your EditorPage.js
 
 
-pen Developer Console (F12 → Console)
 2️⃣ Look for these logs and find where it stops:
 
 ✅ Setting up socket event listener for CODE_CHANGE
