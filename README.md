@@ -85,6 +85,6 @@ If you still see ⚠️ Editor ref is NULL, tell me what the logs show
 
 ✅ Setting up socket event listener for CODE_CHANGE
 📝 Editor content changed: "new code"
-📤 Sending CODE_CHANGE to server: "new code"
+📤 Sending CODE_CHANGE to server  : "new code"
 📩 Received CODE_CHANGE from server: "new code"
 ✏️ Updating editor content from socket: "new code"
