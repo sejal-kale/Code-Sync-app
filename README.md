@@ -74,7 +74,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 init the socket in editor page 
  |
-now send the join event to server
 
 
 
