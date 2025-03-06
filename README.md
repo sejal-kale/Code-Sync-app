@@ -86,7 +86,6 @@ Then look for ✏️ Updating editor content from socket
 If you still see ⚠️ Editor ref is NULL, tell me what the logs show!
 3️⃣ If it's still not working, check your EditorPage.js
 
-Make sure socketRef is correctly passed as a prop.
 
 pen Developer Console (F12 → Console)
 2️⃣ Look for these logs and find where it stops:
